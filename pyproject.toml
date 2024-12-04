@@ -1,0 +1,12 @@
+[project]
+name = "guardrails-llm"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "guardrails-ai==0.6.0",
+    "guardrails-api-client==0.4.0a1",
+    "openai>=1.56.1",
+    "python-dotenv>=1.0.1",
+]
